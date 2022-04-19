@@ -1,0 +1,168 @@
+body {
+     background-color:#eaeaea;
+    background-image:url('https://files.jcink.net/uploads2/sibylskinfour/92cbab3f-epoch_background_2.png');
+    background-attachment:fixed;
+    background-position:center center;
+    background-repeat:repeat;
+    background-size:auto;
+    color:#4f4e4e;
+    font-family: 'Karla', sans-serif;
+    font-size:11px;
+    line-height:calc(11px + 6px);
+    font-weight:300;
+    text-align:justify;
+    margin:0;cursor:url(https://i.postimg.cc/C1wtkYhP/kuwo.png), auto;
+}
+
+
+#epochhead {
+height: 500px;width:100%;
+background: rgba(39,39,39,1);
+background-image: url('https://files.jcink.net/uploads2/sibylskinfour/lower_opacity_bg.png');
+background-position: center;
+overflow: hidden;   position: absolute;
+  top: 50%;
+  margin-top: -250px;
+}
+
+.epochheadcut {
+position: relative;
+height:600px;
+width: 220px;
+background: #272727;
+border-up: 1px solid #1c1c1c;
+border-right: 1px solid #1c1c1c;
+border-left: 1px solid #1c1c1c;
+margin-left: 300px;
+margin-top: -50px;
+transform: rotate(-5deg);
+z-index: 4;  position: absolute;     left:50%;
+  margin-left:25px;
+}
+
+.epochheadcircle {
+width: 400px;
+height: 400px;
+border: 1px solid #a187c1;
+position: absolute;
+margin-left: 210px;
+margin-top: 50px;
+border-radius: 400px;
+   position: absolute;     left:50%;
+  margin-left: -105px;
+}
+
+.epochheadcircle .epochheadbutton {
+background: #272727;
+border: 1px solid #a187c1;
+width: 10px;
+height: 10px;
+padding: 8px;
+text-align: center;
+border-radius: 50%;
+position: absolute;
+left: 50%;
+top: 50%;
+margin-left: -14px;
+margin-top: -14px;
+line-height: 11px;
+color: #a187c1;
+font-weight: bold;
+transition: 0.5s;
+font-family: 'Lato', sans-serif;
+
+}
+
+.epochheadbutton:hover { 
+background: #a187c1;
+color: #404040;
+transition: 0.5s;
+}
+
+.epochheadbuttontext {
+margin-right: -1px;
+margin-top: 0px;
+}
+
+.epochheadcircle .epochheadbutton:nth-child(1) {
+  transform: rotate(180deg) translate(200px);
+}
+
+.epochheadcircle .epochheadbutton:nth-child(2) {
+  transform: rotate(195deg) translate(200px);
+}
+
+.epochheadcircle .epochheadbutton:nth-child(3) {
+  transform: rotate(210deg) translate(200px);
+}
+
+.epochheadbigcirc {
+
+width: 1000px;
+height: 1000px;
+background: url('https://files.jcink.net/uploads2/sibylskinfour/ee9b52f6-interface.png');
+background-size: contain;
+position: relative;
+float: left;
+opacity: 0.05;
+ -webkit-animation: epochspin 60s infinite linear;
+ animation: epochspin 60s infinite linear; position: absolute;     left:50%;
+  margin-left: -400px;
+  top:50%;
+  margin-top: -500px;
+}
+
+.epochtitle {
+font-family: 'Poppins', sans-serif;
+color: #a187c1;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: 700;
+font-size: 100px;
+position: absolute;
+margin-top: 325px;
+margin-left: 410px;
+z-index: 5;
+letter-spacing: -2px;position: absolute;     left:50%;
+  margin-left:50px;}
+
+.epochsubtitle {
+padding: 5px 10px;
+background: #272727;
+border: 1px solid #1c1c1c;
+position: absolute;
+margin-top: 255px;
+margin-left: 460px;
+font-family: 'Poppins', sans-serif;
+color: #6c6c6c;
+font-size: 12px;
+z-index: 10;
+border-radius: 5px;position: absolute;     left:50%;
+  margin-left:6px;
+}
+
+
+@keyframes epochFade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes epochspin {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+.forminput, .codebuttons, .textinput, .radiobutton, .checkbox {
+background: #292929;
+border: 1px solid #1c1c1c;
+padding: 5px 15px;
+border-radius: 10px;
+font-family: 'Poppins', sans-serif;
+font-size: 10px;
+font-weight: 700;
+text-transform: lowercase;
+color: #6c6c6c;
+display: inline-block;
+text-decoration: none;
+margin-left: 5px;
+}
